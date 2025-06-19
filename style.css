@@ -71,6 +71,7 @@ body {
   color: #ccc;
   margin-bottom: 20px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Botão */
@@ -91,59 +92,75 @@ body {
   background-color: #8c8cff;
 }
 
+.bnt-historia{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Estilo do ano (h2) nos cartões */
+.year {
+  font-size: 20px;
+  color: #a5a5ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
 
 /*Historia 1*/
-    .page-header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-    .page-header h1 {
-      font-size: 32px;
-      color: #a5a5ff;
-    }
+.page-header h1 {
+  font-size: 32px;
+  color: #a5a5ff;
+}
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-      max-width: 1000px;
-      margin: 0 auto 40px;
-    }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
 
-    .gallery-item {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(255,255,255,0.05);
-    }
+.gallery-item {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+}
 
-    .gallery-item img,
-    .gallery-item video {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 12px;
-    }
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
 
-    .gallery-item p {
-      color: #ccc;
-      font-size: 14px;
-    }
+.gallery-item p {
+  color: #ccc;
+  font-size: 14px;
+}
 
-    .highlight {
-      text-align: center;
-      font-style: italic;
-      margin-bottom: 40px;
-      color: #bbb;
-    }
+.highlight {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #bbb;
+}
 
-    .back-button {
-      display: block;
-      text-align: center;
-      color: #a5a5ff;
-      text-decoration: none;
-      font-weight: bold;
-    }
+.back-button {
+  display: block;
+  text-align: center;
+  color: #a5a5ff;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /* Responsivo */
 @media (max-width: 500px) {
